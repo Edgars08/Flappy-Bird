@@ -1,0 +1,3 @@
+g++ -I C:\SFML-2.5.1\include -I C:\Users\matlo\Desktop\Code23\IamBack\Header -c AssetManager.cpp StateMachine.cpp Game.cpp InputManager.cpp SplashState.cpp MainMenuState.cpp GameState.cpp PipeClass.cpp Land.cpp Bird.cpp Collision.cpp Flash.cpp Hud.cpp main.cpp 
+
+g++ AssetManager.o StateMachine.o Game.o InputManager.o SplashState.o MainMenuState.o GameState.o PipeClass.o Land.o Bird.o main.o Collision.o Flash.o Hud.o -o p -L"C:\SFML-2.5.1\lib" -lsfml-graphics -lsfml-window -lsfml-system
